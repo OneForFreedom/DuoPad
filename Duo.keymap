@@ -1,0 +1,14 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        layers {
+            default_layer {
+                bindings = <
+                    &kp W       &kp A       &kp S       &kp D       &kp SPACE
+                    &enc_vol_up &enc_vol_dn &enc_mute
+                >;
+            };
+        };
+    };
+};
