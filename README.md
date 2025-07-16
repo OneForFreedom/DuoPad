@@ -16,5 +16,7 @@ So I made this!
 ![DuoPad NBG 2.png](/Images/DuoPad%20NBG%202.png)
 ![DuoPad PCB.png](/Images/DuoPad%20PCB.png)
 ![DuoPad Schematic.png](/Images/DuoPad%20Schematic.png)
+
+
 P.S BEFORE ANYONE TELLS ME THAT THE EXTRA SPACE IS UNNECESSARY. THAT EMPTY SPACE IS WHERE THE BATTERY WILL BE!
 # And that juicy BOM!
