@@ -33,3 +33,5 @@ P.S BEFORE ANYONE TELLS ME THAT THE EXTRA SPACE IS UNNECESSARY. THAT EMPTY SPACE
 | PCB             | £13.52     | \$18.10     | N/A                                                                 |
 | Parcels (Royal mail)  | £3.35      | \$4.49      | N/A                                                                 |
 | **Total**       | **£37.06** | **\$49.69** | —                                                                   |
+
+ Budget doesn't allow for battery. Hopefully I can save up to buy one*
