@@ -1,0 +1,42 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        sw_up: gpio-sw-up {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;  // Pin for Up arrow
+            label = "SW_UP";
+        };
+
+        sw_left: gpio-sw-left {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;  // Pin for Left arrow
+            label = "SW_LEFT";
+        };
+
+        sw_down: gpio-sw-down {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;  // Pin for Down arrow
+            label = "SW_DOWN";
+        };
+
+        sw_right: gpio-sw-right {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;  // Pin for Right arrow
+            label = "SW_RIGHT";
+        };
+
+        sw_space: gpio-sw-space {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  // Same pin for Spacebar here as well, change if needed
+            label = "SW_SPACE";
+        };
+
+        encoder0: rotary-encoder {
+            compatible = "zmk,rotary-encoder";
+            pin_a = <&gpio1 1>;     // Encoder A pin (same as macropad 1)
+            pin_b = <&gpio1 2>;     // Encoder B pin
+            pin_btn = <&gpio1 3>;   // Encoder Button pin
+        };
+    };
+};
