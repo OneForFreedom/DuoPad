@@ -4,6 +4,7 @@ Its a wasd and space in one side and arrow keys in another to play them crappy t
 
 They're both wireless and just plug and play or should i say. Bluetooth connect and play? 
 
+Yea no. They're plug and play. Lipo batteries cost too much.
 
 I made these because i thought to myself why not!
 
