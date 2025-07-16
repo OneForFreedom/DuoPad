@@ -5,10 +5,9 @@ I made these because i thought to myself why not!
 So I made this!
 
 # Eye candy as always!
-
+![DuoPad NBG.png](/Images/DuoPad%20NBG.png)
 ![DuoPad 3D.png](/Images/DuoPad%203D.png)
 ![DuoPad NBG 2.png](/Images/DuoPad%20NBG%202.png)
-![DuoPad NBG.png](/Images/DuoPad%20NBG.png)
 ![DuoPad PCB.png](/Images/DuoPad%20PCB.png)
 ![DuoPad Schematic.png](/Images/DuoPad%20Schematic.png)
 
