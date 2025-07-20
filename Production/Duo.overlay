@@ -1,0 +1,42 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        sw_w: gpio-sw-w {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;  // Pin for W key
+            label = "SW_W";
+        };
+
+        sw_a: gpio-sw-a {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;  // Pin for A key
+            label = "SW_A";
+        };
+
+        sw_s: gpio-sw-s {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 4 GPIO_ACTIVE_LOW>;  // Pin for S key
+            label = "SW_S";
+        };
+
+        sw_d: gpio-sw-d {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;  // Pin for D key
+            label = "SW_D";
+        };
+
+        sw_space: gpio-sw-space {
+            compatible = "gpio-keys";
+            gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  // Pin for Spacebar
+            label = "SW_SPACE";
+        };
+
+        encoder0: rotary-encoder {
+            compatible = "zmk,rotary-encoder";
+            pin_a = <&gpio1 1>;     // Encoder A pin
+            pin_b = <&gpio1 2>;     // Encoder B pin
+            pin_btn = <&gpio1 3>;   // Encoder Button pin
+        };
+    };
+};
